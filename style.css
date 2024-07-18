@@ -1,0 +1,395 @@
+/* Header */
+.header {
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+  }
+  
+  .header-1 {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /*Navbar */
+  
+  input[type="text"] {
+    width: 50%;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 16px;
+    background-image: url("loupe.png");
+    background-position: 95px 20px;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    background-size: 20px;
+  }
+
+  /*  caraousel text */
+  
+.text-car {
+    position: absolute;
+    margin-top: -500px;
+    line-height: 28px;
+    color: black;
+    left: 155px;
+    width: 500px;
+  }
+
+  /* Lottery */
+.lottery p {
+    font-size: 14px;
+  }
+
+  /*Pricing recommedation */
+
+.pricing h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+  }
+  .pricing b {
+    line-height: 50px;
+    font-size: 14px;
+  }
+  
+  .pricing a {
+    line-height: 10px;
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+  .pricing s {
+    color: gray;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .pricing img {
+    -webkit-transition: 0.2s ease;
+    transition: 0.4s ease;
+  }
+  
+  .pricing img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+  }
+  
+  /* Events hover h1 */
+  .events h1{
+    -webkit-transition: 0.2s ease;
+    transition: 0.4s ease;
+
+  }
+
+  .events h1:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.1);
+  }
+  
+  /* Best Seller */
+.best-sellers .btn-upto {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -70px;
+  }
+  
+  .best-sellers .btn-upto1 {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -70px;
+  }
+
+  /* Recommanded Product */
+
+.Product .btn-upto1 {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -231px;
+  }
+  
+  .Product .btn-upto2 {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -125px;
+  }
+  
+  .Product .btn-upto3 {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -75px;
+  }
+  
+  .Product .btn-upto4 {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -140px;
+  }
+  
+  .Product .btn-upto4 {
+    height: 20px;
+    background-color: rgb(226, 99, 53);
+    color: white;
+    font-size: 12px;
+    padding-top: 0px;
+    margin-left: -55px;
+  }
+
+  /* footer*/
+
+.footer a {
+    text-decoration: none;
+    font-size: 12px;
+    color: black;
+  }
+  
+  .footer p {
+    margin-bottom: -2px;
+    font-size: 14px;
+    text-align: justify;
+    color: gray;
+  }
+
+  /* Accordion footer for small devices */
+
+.accordion-footer a {
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+
+
+@media(max-width:575.98px){
+    .top-list{
+        display: none;
+    }
+    .banner-showcase .c-img{
+        height: 120vh !important;
+    }
+    .text-car{
+        display: none;
+    }
+
+    .text-car1{
+        position: relative;
+        top: -443px;
+        text-align: center;
+    }
+    .text-car2{
+        position: relative;
+        top: -340px;
+        text-align: center;
+    }
+    .lottery .col-lg-2{
+        width: 25% !important;
+    }
+
+  .events img{
+    margin-top: -35px;
+  }
+
+  .text-abs1{
+    overflow: hidden;
+  }
+
+  .text-abs1 .sell{
+    margin-top: -190px !important;
+  }
+
+  .text-abs1 .btn-upto{
+    margin-left: -80px;
+  }
+  .text-abs1 h3{
+    margin-left: -41px !important;
+  }
+
+  .text-abs1 p{
+    margin-left: 25px !important;
+  }
+
+  .text-abs1 .new-p{
+    margin-left: -75px !important;
+  }
+
+  .Product .p-text{
+    margin-top: -185px !important;
+  }
+  .Product .p-text1{
+    margin-top: -185px !important;
+  }
+
+  .Product .p-text h3{
+    margin-left: -143px !important;
+  }
+
+  .Product .p-text p{
+    margin-top: 20px !important;
+  }
+
+  .Product .p-text1 p{
+    margin-top: 20px !important;
+  }
+
+  .Product .p-text2{
+    margin-top: -180px !important;
+  }
+
+  .Product .p-text2 .btn-upto2{
+    margin-left: -72px;
+  }
+
+  .Product .p-text2 p{
+    margin-left: 23px !important;
+    margin-bottom: -22px;
+  }
+
+  .Product .p-text3{
+    margin-top: -185px !important;
+  }
+
+  .Product .p-text3 p{
+    margin-left: 6px !important;
+    margin-bottom: -25px;
+  }
+
+  .Product .p-text3 b{
+    margin-left: -83px !important;
+  }
+
+  .Product .p-text4{
+    margin-top: -185px !important;
+    margin-left: 15px;
+  }
+
+  .Product .p-text4 p{
+    margin-left: -120px !important;
+    margin-bottom: -28px;
+  }
+
+  .Product .p-text4 b{
+    margin-left: -131px !important;
+  }
+
+  .real p{
+    justify-content: center;
+  }
+
+  .footer{
+    display: none;
+  }
+
+    
+}
+  
+@media (min-width:576px) and (max-width:767.98px){
+    .top-list{
+        display: none;
+    }
+    .banner-showcase .c-img{
+        height: 120vh !important;
+    }
+    .text-car{
+        display: none;
+    }
+
+    .text-car1{
+        position: relative;
+        top: -443px;
+        text-align: center;
+    }
+    .text-car2{
+        position: relative;
+        top: -340px;
+        text-align: center;
+    }
+
+    .lottery .col-lg-2{
+        width: 25% !important;
+    }
+
+    .footer{
+        display: none;
+    }
+
+}
+
+
+
+@media (min-width:768px) and (max-width:991.98px){
+    .top-list{
+        display: none;
+    }
+    .banner-showcase .c-img{
+        height: 120vh !important;
+    }
+    .text-car{
+        display: none;
+    }
+
+    .text-car1{
+        position: relative;
+        top: -443px;
+        text-align: center;
+    }
+    .text-car2{
+        position: relative;
+        top: -340px;
+        text-align: center;
+    }
+    .lottery .col-lg-2{
+        width: 87px !important;
+    }
+
+    .pricing b {
+        margin-top: 100px;
+    }
+    
+    .footer{
+        display: none;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.98px){
+    .top-list{
+        display: none;
+    }
+
+    .text-car1{
+        display: mone;
+    }
+    .text-car2{
+        display: none;
+    }
+    .lottery .col-lg-2{
+        width: 115px !important;
+    }
+    .pricing .col-5{
+        width: 20%;
+    }
+
+    .accordion-footer{
+        display: none;
+    }
+    
+}
